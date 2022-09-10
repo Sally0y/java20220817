@@ -22,9 +22,6 @@ public class GuessNumber {
 		} else  {
 			System.out.println("틀렸습니다.");
 		}
-	}
+	}		
 }
-		
-		
-	}
-}
+

@@ -14,6 +14,6 @@ public class C12String {
 		String c = a.substring(x, y);
 		String d = b.substring(i, j);
 		
-		System.out.println(c + d); //javacode
+		System.out.println(c + d); // "javacode"
 	}
 }

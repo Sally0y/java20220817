@@ -2,12 +2,11 @@ package ch01.lecture;
 
 public class Comment {
 	public static void main(String[] args) {
-		//주석 : 프로그램 실행에 영향을 미치지 않음
+		//주석: 프로그램 실행에 영향을 미치지 않음
 		//한 줄 주석
 		
 		/*
 		 * 여러 줄 주석
-		 * 여러 줄 
 		 */
 		
 		//단축키 : ctrl + /

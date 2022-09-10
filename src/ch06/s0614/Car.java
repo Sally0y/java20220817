@@ -12,9 +12,10 @@ public class Car {
 	//메소드
 	public int getSpeed() {
 		return speed;
+	}
 		
 	public void setSpeed(int speed) {
-		if(speed<0) {
+		if(speed < 0) {
 			this.speed = 0;
 			return;
 		} else {
@@ -28,9 +29,6 @@ public class Car {
 	
 	public void setStop(boolean stop) {
 		this.stop = stop;
-		this.speed = 0;
-	}
-	
-	
+		this.speed = 0;	
 	}
 }
