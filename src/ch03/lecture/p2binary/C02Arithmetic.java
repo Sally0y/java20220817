@@ -2,6 +2,7 @@ package ch03.lecture.p2binary;
 
 public class C02Arithmetic {
 	public static void main(String[] args) {
+		// 오버플로우(엉뚱한 값) 주의
 		// 사용하는 자료형 주의해서 선택하기
 		
 		int i = 10_0000_0000;

@@ -16,21 +16,21 @@ public class C04Integer {
 //		byte d = 128; 
 //		byte e = -129;
 		
-		// short (2 bytes)
+		// short (2 bytes) == 16bit
 		// -32,768 ~ 32,767
 		short f = -32768;
 		short g = 32767;
 //		short h = 32768;
 //		short i = -32769;
 		
-		// int (4 bytes)
+		// int (4 bytes) == 32bit
 		// -2,147,483,648 ~ 2,147,483,647
 		int j = -2147483648;
 		int k = 2147483647;
 //		int l = -3000000000;
 //		int m = 3000000000;
 		
-		// long (8 bytes)
+		// long (8 bytes) == 64bit
 		// 매우 큰값
 		long o = 2200000000L;
 		long p = -3000000000L;
@@ -46,6 +46,7 @@ public class C04Integer {
 		long r = 21_0000_0000;
 		
 		// 연산시 overflow 주의
+		// overflow: 컴퓨터가 다루는 수의 범위를 넘어서는 일
 		int s = 2147483647;
 		
 		// 2147483648 x

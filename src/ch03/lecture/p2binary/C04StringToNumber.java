@@ -2,12 +2,14 @@ package ch03.lecture.p2binary;
 
 public class C04StringToNumber {
 	public static void main(String[] args) {
+		// valueOf: 객체형변환
+		
 		String a = "10";
 		int b = 30;
 		
 		System.out.println(a + b); // "1030"
 		
-		int c = Integer.valueOf(a);
+		int c = Integer.valueOf(a); // 정수 형태로 데이터가 저장
 		
 		System.out.println(c + b); // 40
 		

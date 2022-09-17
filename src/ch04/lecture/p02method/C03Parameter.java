@@ -3,7 +3,7 @@ package ch04.lecture.p02method;
 public class C03Parameter {
 	public static void main(String[] args) {
 		System.out.println(1);
-		method1(); // 파라미터없는 메소드 호출
+		method1(); // 파라미터(매개변수 또는 보조변수)없는 메소드 호출
 		System.out.println(2);
 		
 //		method2(3.14);//x

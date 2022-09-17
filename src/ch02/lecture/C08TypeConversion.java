@@ -4,28 +4,21 @@ public class C08TypeConversion {
 	public static void main(String[] args) {
 		// 타입변환
 		
-		/*
-		 *  작은 타입에서 큰 타입으로는 
-		 *  자동 변환
-		 */
-//   ---------------------------------------		
-		/* 
-		 * 큰 타입에서 작은 타입으로는 
-		 * 강제 변환(cast 연산, casting)
-		 */
+		// 작은 타입에서 큰 타입으로는 자동 변환	
+		// 큰 타입에서 작은 타입으로는 강제 변환(cast 연산, casting)
 		
 		// 자동 형변환
-		int a = 33;
+		int a = 33;    
 		short b = 55;
 		
-		a = b; // 자동 형변환
+		a = b; // 2byte → 4byte
 		
 		char c = '가';
 		a = c;
 		
 		long d = c;
 		
-//		short e = c; // 안됨
+//		short e = c; // 8byte → 2byte (x)
 		
 		float f = 3.14F;
 		double g = f;

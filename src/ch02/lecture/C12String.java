@@ -10,7 +10,7 @@ public class C12String {
 		int i = 2;
 		int j = 6;
 		
-		
+		//문자열 자르기 - substring()
 		String c = a.substring(x, y);
 		String d = b.substring(i, j);
 		

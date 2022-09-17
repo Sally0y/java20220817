@@ -2,19 +2,26 @@ package ch03.lecture.p1unary;
 
 public class C02Increment {
 	public static void main(String[] args) {
-		// ++ : 증가연산자
-		// -- : 감소연산자
+		// ++ : 증가연산자(단항)
+		// -- : 감소연산자(단항)
+		
+		int x = 1; // 연산결과는 12, x는 11이됨
+		int y = 1; // 연산결과는 11, y의 값은 11로 저장
+		int result1 = ++x + 10; //12
+		int result2 = y++ + 10; //11
+		System.out.println(result1);
+		System.out.println(result2);
 		
 		int i = 10;
 		int j = 10;
 		
 		int k = ++i; // 연산결과는 11, i가 11이됨
-		int l = j++; // 연산결과는 10, 그 다음 출력 시 j는 11이 출력됨
+		int l = j++; // 연산결과가 10, j가 11이됨
 		System.out.println(i);
-		System.out.println(j);
+		System.out.println(j); //11
 		
 		System.out.println(k);
-		System.out.println(l);
+		System.out.println(l); //10
 		
 		int m = 10;
 		int n = 10;

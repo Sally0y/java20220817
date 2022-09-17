@@ -1,8 +1,10 @@
 package ch02.lecture;
 
 public class C11String {
-	public static void main(String[] args) {
-		// String : 문자열 
+	public static void main(String[] args) { 
+		// String : 문자열 = 클래스 타입, 참조 변수 =/= 기본타입
+		// String은 문자열이 변수에 직접 저장 x
+		// String 객체 생성, 변수는 객체의 번지를 참조하게 됨.
 		
 		// char : 문자
 		
@@ -28,7 +30,7 @@ public class C11String {
 		String j = d + " world";
 		System.out.println(j);
 		
-		// 참조타입 (객체) ; 필드와 메소드가 있음
+		// 참조타입(객체); 필드와 메소드가 있음
 		String k = "bts";
 		char l = k.charAt(0); // charAt 메소드
 		int m = k.charAt(0);

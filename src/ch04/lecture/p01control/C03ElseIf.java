@@ -4,6 +4,7 @@ public class C03ElseIf {
 	public static void main(String[] args) {
 		
 		// else if : 이전 조건이 false일 때 다시 조건확인 후 true이면 코드블럭 실행
+		// else if = "아니야? 그럼 만약에"로 해석
 		
 		System.out.println(1);
 		

@@ -2,7 +2,7 @@ package ch04.lecture.p01control;
 
 public class C04Random {
 	public static void main(String[] args) {
-		// Math.random() : 0이상 1미만의 double 값 리턴
+		// Math.random() : 0이상 1미만의 double타입의 값을 리턴해주는 메소드
 		double d = Math.random();
 		System.out.println(d);
 		
