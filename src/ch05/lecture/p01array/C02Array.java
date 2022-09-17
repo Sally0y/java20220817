@@ -8,7 +8,7 @@ public class C02Array {
 		arr1[0] = 9;
 		arr1[1] = 8;
 		arr1[2] = 7;
-//		arr1[3] = 7; 출력 오류 메세지 뜨게 됨
+//		arr1[3] = 7; 컴파일 에러
 				
 		int[] arr2;
 		arr2 = new int[] {9, 8, 7};
