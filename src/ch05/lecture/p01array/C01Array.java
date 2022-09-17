@@ -3,7 +3,7 @@ package ch05.lecture.p01array;
 public class C01Array {
 	public static void main(String[] args) {
 		// 힙 영역에 위치
-		// 힙 영역은 객체(=배열 in java)가 생성되는 영역이다.
+		// 힙 영역은 객체가 생성되는 영역이다.
 		// 변수는 하나의 값만 가짐
 		// array : 여러 값을 저장하는 공간
 		// 타입[인덱스]
