@@ -10,7 +10,7 @@ public class C03Null {
 //		a = null; // 참조하는 객체가 없음
 		b = null; // 참조하는 객체가 없음 but, null값 선언
 		
-//		System.out.println(a); // Null로 인한 출력 오류 = 출력 안 됨
+//		System.out.println(a); // Null로 인한 컴파일 에러
 		System.out.println(b); // Null값이 출력
 		
 		System.out.println(c.length());

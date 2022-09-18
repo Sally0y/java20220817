@@ -12,6 +12,7 @@ public class C11ForEach {
 			System.out.println(a[i]);
 		}
 		
+		// 4번(= 배열의 항목 수) 반복
 		System.out.println("향상된 FOR");
 		for (int item : a) {
 			System.out.println(item);

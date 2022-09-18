@@ -1,7 +1,11 @@
 package ch06.lecture.p01field;
-
+// 클래스에는 객체가 가져야 할 구성 멤버가 선언된다.
 public class C03Field {
 	public static void main(String[] args) {
+		//field: 객체의 데이터가 저장되는 곳
+		//필드는 생성자와 메소드 전체에서 사용 가능,
+			// 객체가 소멸되지 않는  한 객체와 함께 존재
+		
 		MyClass2 o1 = new MyClass2();
 		
 		o1.name = "java";
