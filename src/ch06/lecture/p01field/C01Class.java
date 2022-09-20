@@ -6,7 +6,7 @@ public class C01Class {
 		
 		MyObject o1 = new MyObject();
 		MyObject o2 = new MyObject();
-		
+		//클래스로부터 만들어진 객체 = 클래스의 인스턴스라 함
 
 	}
 }

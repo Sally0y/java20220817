@@ -3,13 +3,17 @@ package ch06.lecture.p01field;
 public class C03Field {
 	public static void main(String[] args) {
 		//field: 객체의 데이터가 저장되는 곳
-		//필드는 생성자와 메소드 전체에서 사용 가능,
-			// 객체가 소멸되지 않는  한 객체와 함께 존재
 		
-		MyClass2 o1 = new MyClass2();
+		//필드는 생성자와 메소드 블럭 안( in { } )을 제외하고는 어느 위치에서든 사용 가능,
+			// + 객체가 소멸되지 않는  한 객체와 함께 존재
 		
-		o1.name = "java";
-		o1.color = "blue";
+		//필드 선언시 생성자와 메소드 내에서 변경 가능
+			// 변수는 블럭 안에서만 변경 가능
+		
+		MyClass2 o1 = new MyClass2(); // => 생성자 선언 without {}
+		
+		o1.name = "java";  // => 필드!!! =/= 변수
+ 		o1.color = "blue";
 		o1.age = 90;
 		o1.score = 3.14;
 		
