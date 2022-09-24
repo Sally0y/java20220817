@@ -24,7 +24,7 @@ public class Exercise5 {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} catch (ClassNotFoundException e) {
+//		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
