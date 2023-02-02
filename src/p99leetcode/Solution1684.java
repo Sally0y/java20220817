@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Solution1684 {
-	// Set 사용
+/*	// Set 사용
 	public int countConsistentStrings(String allowed, String[] words) {
 		Set<Character> set = new HashSet<>();
 
@@ -75,5 +75,5 @@ public class Solution1684 {
 		}
 
 		return false;
-	}
+	} */
 }

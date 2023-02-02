@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Solution2206 {
-	// stream api
+/*	// stream api
 	public boolean divideArray(int[] nums) {
 		return Arrays.stream(nums)
 				.boxed()
@@ -31,5 +31,5 @@ public class Solution2206 {
 		}
 
 		return true;
-	}
+	}   */
 }

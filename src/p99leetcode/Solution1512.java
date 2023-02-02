@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class Solution1512 {
-	// stream api
+/*  // stream api
 	public int numIdenticalPairs(int[] nums) {
 		return Arrays.stream(nums)
 				.boxed()
@@ -40,5 +40,5 @@ public class Solution1512 {
 		}
 
 		return result;
-	}
+	}   */
 }

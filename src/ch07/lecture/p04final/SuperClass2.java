@@ -17,10 +17,10 @@ class SubClass2 extends SuperClass2 {
 		
 	}
 	
-	// 재정의 안됨
-//	public void method2() {
+/*  재정의 안됨
+	public void method2() {
 		
-//	}
+	} */
 }
 
 
